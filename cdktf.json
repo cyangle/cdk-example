@@ -6,6 +6,9 @@
     "sumologic/sumologic@~> 2.5.0",
     "datadog/datadog@~> 2.16.0"
   ],
+  "terraformModules": [
+    "terraform-aws-modules/eks/aws@13.1.0"
+  ],
   "context": {
     "excludeStackIdFromLogicalIds": "true",
     "allowSepCharsInLogicalIds": "true"
